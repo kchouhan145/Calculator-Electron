@@ -11,6 +11,7 @@ function createWindow() {
     icon:'./resources/icon.png',
     show: false,
     resizable:false,
+    title:'Calculator',
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
